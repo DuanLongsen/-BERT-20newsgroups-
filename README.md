@@ -1,4 +1,4 @@
-# 基于 BERT 的文本二分类实践 (20newsgroups)
+﻿# 基于 BERT 的文本二分类实践 (20newsgroups)
 
 ## 📖 项目简介
 本项目基于 PyTorch 和 HuggingFace 的 `transformers` 库，使用预训练语言模型 **BERT (bert-base-uncased)** 对 `20newsgroups` 数据集进行文本二分类微调（Fine-tuning）。
@@ -12,6 +12,9 @@
 
 ## 🛠️ 环境配置
 建议使用 Python 3.11 及以上版本。可以通过以下命令快速安装项目所需依赖：
-
+## 📈 实验结果 (Experimental Results)
+- **模型**: GRU Baseline
+- **测试集准确率**: 74.63%
+- **训练日期**: 2026-04-17
 ```bash
 pip install -r requirements.txt
